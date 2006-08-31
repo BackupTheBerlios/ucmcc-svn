@@ -1,0 +1,7 @@
+; Version template for UCMCC
+
+; Copyright (c) 2006 by QUALCOMM INCORPORATED  All Rights Reserved.
+; Miki Tebeka <mtebeka@qualcomm.com>
+
+AppVerName = UCM CodeCollaborator _VERSION_
+OutputBaseFileName = ucmcc__VERSION__setup
