@@ -1,0 +1,62 @@
+Version 0.4.0 (20/08/2006)
+	* Allow to login as different user
+	* Code improvements
+
+Version 0.3.6 (17/08/2006)
+	* Fixed bug that made tool crash when there is a checked-out file
+	* Added progress bars
+	* UCMCC - Baseline now shows more information on each baseline
+	* Hashing some `cleartool` command output for better performance
+	* Views with comments are now handled currectly
+	* Views that don't have "View properties:" line in `cleartool lsact -long`
+	  will be considered dynamic
+
+Version 0.3.5 (2006-05-30)
+	* Fixed duplicated files error
+
+Version 0.3.4 (2006-05-28)
+	* Fixed link to QCT CodeCollaborator server
+
+Version 0.3.3 (2006-05-28)
+	* Better "Review Done" message
+	* Code improvement
+	* Fixed hang problem in snapshot-view
+
+Version 0.3.2 (2006-05-15)
+	* Explictly call `ccollab set scm clearcase`
+
+Version 0.3.1 (2006-05-15)
+	* Fixed bug in activity name finding
+	* Added warning about developer branch rebase
+
+Version 0.3.0 (2006-05-07)
+	* Getting the "right" base version
+	* Added note about "activity lifespan"
+	* Flash taskbar when done uploading
+
+Version 0.2.0 (2006-05-04)
+	* New UI for `UCMCC - Baseline`
+	* Added instructions on how to install and configure `ccollab`
+	* Added `Known Bugs` section
+	* Add `Installing` section
+	* More detailed error messages
+	* Allow for space in file names
+	* Check for `UCMCC_USER` environment variable
+
+Version 0.1.3 (2006-04-27)
+	* Check that `ccollab` is in PATH
+	* Add "Prerequisites" section
+	* Fixed a bug in finding baseline changes
+
+Version 0.1.2 (2006-04-27)
+	* Better detection of view owner
+
+Version 0.1.1 (2006-04-27)
+	* Added license (BSD) 
+	* Catch more errors (specially on startup)
+	* Fixed typo in installer
+	* Check that cleartool is in path
+	* Better sorting of baselines (by date reversed)
+
+Version 0.1.0 (2006-04-24)
+	* First release!

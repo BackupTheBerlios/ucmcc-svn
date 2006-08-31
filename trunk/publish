@@ -1,0 +1,10 @@
+#!/bin/bash
+# Publish new release
+
+# Miki Tebeka <mtebeka@qualcomm.com>
+
+last_setup=`ls -tr *.exe | tail -1`
+for file in $last_setup README.html default.css ChangeLog LICENSE.txt
+do
+    cp -fv $file /mnt/unix/public_html/ucmcc
+done
